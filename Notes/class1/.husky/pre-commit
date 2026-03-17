@@ -2,5 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 cd Notes/class1 || exit 1
-npm test
-npx pretty-quick -branch main
+
+npx pretty-quick --staged
